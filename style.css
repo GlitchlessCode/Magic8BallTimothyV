@@ -1,0 +1,51 @@
+/* Element Selectors */
+
+html {
+    /* Space background */
+    background: url("/img/pexels-hristo-fidanov-1252890.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    /* Bakground Color, Shape, and Positioning */
+    background: rgba(255, 255, 255, 0.671);
+
+    width: fit-content;
+
+    padding: 25px 100px;
+    margin: 50px auto;
+
+    border-radius: 30px;
+
+    /* Text */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Image/"Button" */
+img {
+    width: 350px;
+    display: block;
+    margin: 5px auto;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+/* Input field */
+input {
+    /* Shape*/
+    width: 530px;
+    padding: 5px;
+
+    /* Text */
+    color: green;
+    font-size: 18px;
+}
+
+
+/* Id Selectors */
+
+#answer {
+    color: green;
+}
